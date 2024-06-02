@@ -1,4 +1,4 @@
-package com.example.basicsample.models.api
+package com.example.paginationcatapi.models.api
 
 data class ApiDataModelItem(
     val height: Int,

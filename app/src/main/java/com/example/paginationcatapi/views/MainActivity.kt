@@ -1,15 +1,13 @@
-package com.example.basicsample.views
+package com.example.paginationcatapi.views
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
-import com.example.basicsample.adapter.PagingRvAdapter
-import com.example.basicsample.adapter.RvAdapter
-import com.example.basicsample.databinding.ActivityMainBinding
-import com.example.basicsample.pagination.LoaderAdapter
-import com.example.basicsample.viewmodels.MainActivityViewModel
+import com.example.paginationcatapi.adapter.PagingRvAdapter
+import com.example.paginationcatapi.databinding.ActivityMainBinding
+import com.example.paginationcatapi.viewmodels.MainActivityViewModel
 import kotlinx.coroutines.launch
 
 

@@ -1,4 +1,4 @@
-package com.example.basicsample.pagination
+package com.example.paginationcatapi.pagination
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -6,7 +6,7 @@ import androidx.core.view.isVisible
 import androidx.paging.LoadState
 import androidx.paging.LoadStateAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.example.basicsample.databinding.LoaderItemBinding
+import com.example.paginationcatapi.databinding.LoaderItemBinding
 
 class LoaderAdapter : LoadStateAdapter<LoaderAdapter.LoadViewHolder>() {
 

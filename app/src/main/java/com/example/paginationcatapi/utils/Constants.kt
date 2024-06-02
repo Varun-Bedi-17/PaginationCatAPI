@@ -1,4 +1,4 @@
-package com.example.basicsample.utils
+package com.example.paginationcatapi.utils
 
 object Constants {
     val BASE_URL = "https://api.thecatapi.com/"

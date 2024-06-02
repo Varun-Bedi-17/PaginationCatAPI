@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.basicsample'
+    namespace 'com.example.paginationcatapi'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.example.basicsample"
+        applicationId "com.example.paginationcatapi"
         minSdk 26
         targetSdk 34
         versionCode 1

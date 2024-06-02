@@ -1,15 +1,14 @@
-package com.example.basicsample.adapter
+package com.example.paginationcatapi.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.paging.PagingDataAdapter
-import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.basicsample.R
-import com.example.basicsample.databinding.RvListItemBinding
-import com.example.basicsample.models.api.ApiDataModelItem
+import com.example.paginationcatapi.R
+import com.example.paginationcatapi.databinding.RvListItemBinding
+import com.example.paginationcatapi.models.api.ApiDataModelItem
 
 class PagingRvAdapter : PagingDataAdapter<ApiDataModelItem, PagingRvAdapter.Adapter>(diffCallback = diffUtil) {
     inner class Adapter(val binding : RvListItemBinding) : RecyclerView.ViewHolder(binding.root)

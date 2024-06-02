@@ -1,18 +1,14 @@
-package com.example.basicsample.viewmodels
+package com.example.paginationcatapi.viewmodels
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.paging.Pager
 import androidx.paging.PagingConfig
-import androidx.paging.PagingData
 import androidx.paging.liveData
-import com.example.basicsample.models.api.ApiDataModel
-import com.example.basicsample.models.api.ApiDataModelItem
-import com.example.basicsample.models.api.ApiHelper
-import com.example.basicsample.models.api.ApiPagingSource
-import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.launchIn
+import com.example.paginationcatapi.models.api.ApiDataModel
+import com.example.paginationcatapi.models.api.ApiHelper
+import com.example.paginationcatapi.models.api.ApiPagingSource
 import kotlinx.coroutines.launch
 
 class MainActivityViewModel : ViewModel() {

@@ -1,4 +1,4 @@
-package com.example.basicsample
+package com.example.paginationcatapi
 
 import org.junit.Test
 

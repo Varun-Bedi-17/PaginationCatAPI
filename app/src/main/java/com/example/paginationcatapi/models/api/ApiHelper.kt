@@ -1,6 +1,6 @@
-package com.example.basicsample.models.api
+package com.example.paginationcatapi.models.api
 
-import com.example.basicsample.utils.Constants
+import com.example.paginationcatapi.utils.Constants
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
